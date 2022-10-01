@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0,0,25,0.95),
+    rgba(28, 1, 44, 0.95)),url('izone.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position-y:10% ;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+
+}
+.hero h1{
+    font-size: 120px;
+    font-weight: 600;
+    position: relative;
+
+}
+
+#focus{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    background: url('izone.jpg');
+    background-size: cover;
+    background-position: center;
+    background-position-y:10% ;
+    background-attachment: fixed;
+    border-radius: 50%;
+    top: calc(50% - 140px);
+    left: calc(50% - 140px);
+
+}
